@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cadd819a6415b190ae2704ced6e6c8b",
+    "content-hash": "b60fb43b01bc63e73bcdf3efab7b21c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5754,6 +5754,53 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
+            "name": "laravel-frontend-presets/tailwindcss",
+            "version": "4.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-frontend-presets/tailwindcss.git",
+                "reference": "4f821e72ff7a46057d815d450ce8f7c64f7abe7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-frontend-presets/tailwindcss/zipball/4f821e72ff7a46057d815d450ce8f7c64f7abe7a",
+                "reference": "4f821e72ff7a46057d815d450ce8f7c64f7abe7a",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^8.0",
+                "laravel/ui": "^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelFrontendPresets\\TailwindCssPreset\\TailwindCssPresetServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelFrontendPresets\\TailwindCssPreset\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Laravel frontend preset for Tailwind CSS",
+            "keywords": [
+                "laravel",
+                "preset",
+                "tailwindcss"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel-frontend-presets/tailwindcss/issues",
+                "source": "https://github.com/laravel-frontend-presets/tailwindcss/tree/4.3.1"
+            },
+            "time": "2020-09-13T00:01:43+00:00"
+        },
+        {
             "name": "laravel/sail",
             "version": "v1.10.1",
             "source": {
@@ -5812,6 +5859,64 @@
                 "source": "https://github.com/laravel/sail"
             },
             "time": "2021-08-23T13:43:27+00:00"
+        },
+        {
+            "name": "laravel/ui",
+            "version": "v3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "07d725813350c695c779382cbd6dac0ab8665537"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/07d725813350c695c779382cbd6dac0ab8665537",
+                "reference": "07d725813350c695c779382cbd6dac0ab8665537",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.42",
+                "illuminate/filesystem": "^8.42",
+                "illuminate/support": "^8.42",
+                "illuminate/validation": "^8.42",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "support": {
+                "source": "https://github.com/laravel/ui/tree/v3.3.0"
+            },
+            "time": "2021-05-25T16:45:33+00:00"
         },
         {
             "name": "mockery/mockery",
