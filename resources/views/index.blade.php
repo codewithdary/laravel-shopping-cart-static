@@ -1,33 +1,38 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="w-4/5 mx-auto text-center">
-    <div>
-        <h1 class="font-bold text-5xl pt-20 pb-8">
-            All Products
-        </h1>
-
-        <a href="/products" class="font-bold border-b-4 border-pink-200 pb-1">
-            View All
-        </a>
-    </div>
-
-    <div class="grid grid-cols-3 gap-2 pt-20">
-            @foreach($products as $product)
-                <div class="radius rounded-3xl w-4/5 text-center mx-auto transition transition-all hover:bg-gray-200">
-                    <a href="/shop/{{ $product->id }}">
-                        <img src="{{ $product->image }}" alt="" class="rounded-3xl shadow-xl">
-
-                        <h2 class="font-bold text-l pt-4 pb-2">
-                            {{ $product->name }}
-                        </h2>
-
-                        <p class="text-sm p">
-                            $ {{ $product->price }}
-                        </p>
-                    </a>
+    <div class="hero min-h-screen bg-base-200 " style="background:url('https://cdn.pixabay.com/photo/2021/08/28/11/13/walking-6580711_1280.jpg')">
+        <div class="flex-col justify-center hero-content lg:flex-row">
+            <div class="text-center lg:text-left">
+                <h1 class="mb-5 text-5xl font-bold">
+                    Hello there
+                </h1>
+                <p class="mb-5">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+            </div>
+            <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div class="card-body">
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Email</span>
+                        </label>
+                        <input type="text" placeholder="email" class="input input-bordered">
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Password</span>
+                        </label>
+                        <input type="text" placeholder="password" class="input input-bordered">
+                        <label class="label">
+                            <a href="#" class="label-text-alt">Forgot password?</a>
+                        </label>
+                    </div>
+                    <div class="form-control mt-6">
+                        <input type="button" value="Login" class="btn btn-primary">
+                    </div>
                 </div>
-            @endforeach
+            </div>
+        </div>
     </div>
-</div>
 @endsection
