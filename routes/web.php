@@ -15,10 +15,9 @@ use App\Http\Controllers\CartController;
 |
 */
 
+Auth::routes();
 Route::get('/', [PagesController::class, 'index']);
-Route::get('/products', [ProductController::class, 'index']);Auth::routes();
+Route::get('/shop', [ProductController::class, 'index']);
+Route::get('/shop/{id}', [ProductController::class, 'show']);
 Route::get('/cart', [CartController::class, 'cart']);
-
-
-Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
