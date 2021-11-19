@@ -20,6 +20,10 @@
         <h2 class="text-xl text-gray-600 font-bold pb-8">
             Apple MacBook Pro 2021
         </h2>
+        
+        <p class="font-thin text-xs text-black pb-8">
+            Apple M1 Pro, 16 GPU, 16GB, 512 GB SSD
+        </p>
 
         <p class="font-bold text-l text-black pb-8">
            Price: <span class="text-red-500">$ 1993</span>
