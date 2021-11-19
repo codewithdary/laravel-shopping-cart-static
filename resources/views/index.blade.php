@@ -1,38 +1,25 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="hero min-h-screen bg-base-200 " style="background:url('https://cdn.pixabay.com/photo/2021/08/28/11/13/walking-6580711_1280.jpg')">
-        <div class="flex-col justify-center hero-content lg:flex-row">
-            <div class="text-center lg:text-left">
-                <h1 class="mb-5 text-5xl font-bold">
-                    Hello there
-                </h1>
-                <p class="mb-5">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-                </p>
-            </div>
-            <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                <div class="card-body">
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text">Email</span>
-                        </label>
-                        <input type="text" placeholder="email" class="input input-bordered">
-                    </div>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text">Password</span>
-                        </label>
-                        <input type="text" placeholder="password" class="input input-bordered">
-                        <label class="label">
-                            <a href="#" class="label-text-alt">Forgot password?</a>
-                        </label>
-                    </div>
-                    <div class="form-control mt-6">
-                        <input type="button" value="Login" class="btn btn-primary">
-                    </div>
-                </div>
-            </div>
+<div 
+    class="grid grid-cols-1 m-auto w-full h-screen bg-dunes bg-cover bg-center"
+    style="background-image: url('https://cdn.pixabay.com/photo/2020/12/18/16/56/laptop-5842509__480.jpg')">
+    <div class="flex text-gray-100">
+        <div class="m-auto pb-16 sm:m-auto w-4/5 block text-center">
+            <h1 class="sm:text-white text-3xl sm:text-5xl uppercase font-normal text-shadow-md">
+                Shop Tech Items
+            </h1>
+            
+            <p class="pb-10 font-thin pt-6">
+                Get items for the cheapest price
+            </p>
+
+            <a  
+                href="/shop"
+                class="btn btn-primary btn-active mb-10">
+                Shop Now
+            </a>
         </div>
     </div>
+</div>
 @endsection

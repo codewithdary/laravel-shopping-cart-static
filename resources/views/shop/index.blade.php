@@ -1,30 +1,33 @@
+@extends('layouts.app')
 
-<div class="w-4/5 mx-auto text-center">
-    <div>
-        <h1 class="font-bold text-5xl pt-20 pb-8">
-            All Products
-        </h1>
+@section('content')
 
-        <a href="/products" class="font-bold border-b-4 border-pink-200 pb-1">
-            View All
+<div class="mx-auto w-4/5">
+    <h1 class="text-5xl text-gray-800 font-bold pt-12 mb-8">
+        Shop
+    </h1>
+
+    <hr class="border-1 border-gray-300">
+</div>
+
+<div class="grid sm:grid-cols-4 gap-8 pt-20 mx-auto w-4/5">
+    <div class="mx-auto">
+        <img 
+            src="https://static.iphoned.nl/orca/products/9011/apple-macbook-pro-2021.png" 
+            alt="Apple MacBook Pro 2021" 
+            class="mask mask-parallelogram-2">
+
+        <h2 class="text-xl text-gray-600 font-bold pb-8">
+            Apple MacBook Pro 2021
+        </h2>
+
+        <p class="font-bold text-l text-black pb-8">
+           Price: <span class="text-red-500">$ 1993</span>
+        </p>
+
+        <a  href="/shop/1"
+            class="btn btn-primary btn-active mb-10 w-full">
+            Read more...
         </a>
     </div>
-
-    <div class="grid grid-cols-3 gap-2 pt-20">
-        @foreach($products as $product)
-            <div class="radius rounded-3xl w-4/5 text-center mx-auto transition transition-all hover:bg-gray-200">
-                <a href="/shop/{{ $product->id }}">
-                    <img src="{{ $product->image }}" alt="" class="rounded-3xl shadow-xl">
-
-                    <h2 class="font-bold text-l pt-4 pb-2">
-                        {{ $product->name }}
-                    </h2>
-
-                    <p class="text-sm p">
-                        $ {{ $product->price }}
-                    </p>
-                </a>
-            </div>
-        @endforeach
-    </div>
-</div>
+@endsection
