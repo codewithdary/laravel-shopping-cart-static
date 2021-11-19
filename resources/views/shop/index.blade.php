@@ -30,7 +30,7 @@
         </p>
 
         <a  href="/shop/1"
-            class="btn btn-primary btn-active mb-10 w-full">
+            class="px-6 py-2 text-l uppercase text-white font-bold bg-blue-600 rounded-full w-full">
             Read more...
         </a>
     </div>
