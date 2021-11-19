@@ -20,6 +20,10 @@
             <p class="font-bold text-l text-black pb-8">
                Price: <span class="text-red-500">$ 1993</span>
             </p>
+            
+            <p class="font-bold text-l text-black pb-8">
+                Shipping: <span class="text-red-500">$ 25</span>
+            </p>
 
             <p class="text-gray-800 text-thin text-l leading-6 pb-8">
                 Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. The Apple MacBook Pro packs 512GB of SSD storage. Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it comes with 2 USB ports (2 x USB 3.0), Mic In ports.
