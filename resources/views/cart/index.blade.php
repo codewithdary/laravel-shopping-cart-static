@@ -103,7 +103,7 @@
                             </td>
 
                             <td class="px-6 whitespace-nowrap text-right text-sm font-medium">
-                                <a href="#" class="text-red-600 hover:text-red-900">Delete</a>
+                                <a href="#" role="button" class="text-red-600 hover:text-red-900">Delete</a>
                             </td>
                         </tr>
                     </tbody>
