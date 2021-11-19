@@ -16,7 +16,7 @@
 
             <a  
                 href="/shop"
-                class="btn btn-primary btn-active mb-10">
+                class="px-8 py-4 text-l uppercase text-white font-bold bg-blue-600 rounded-full w-full">
                 Shop Now
             </a>
         </div>
