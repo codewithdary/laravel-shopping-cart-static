@@ -15,7 +15,7 @@
         <img 
             src="https://static.iphoned.nl/orca/products/9011/apple-macbook-pro-2021.png" 
             alt="Apple MacBook Pro 2021" 
-            class="mask mask-parallelogram-2">
+            style="height:200px !important;">
 
         <h2 class="text-xl text-gray-600 font-bold pb-8">
             Apple MacBook Pro 2021
