@@ -29,11 +29,11 @@
                 Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. The Apple MacBook Pro packs 512GB of SSD storage. Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it comes with 2 USB ports (2 x USB 3.0), Mic In ports.
             </p>
 
-            <button 
+            <a 
                 class="btn btn-primary btn-active mb-10 w-full" 
                 role="button" 
                 aria-pressed="true">
                 Add To Cart
-            </button>
+            </a>
         </div>
 @endsection
