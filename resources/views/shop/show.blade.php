@@ -8,8 +8,7 @@
         <div class="mx-auto">
             <img 
                 src="https://static.iphoned.nl/orca/products/9011/apple-macbook-pro-2021.png" 
-                alt="Apple MacBook Pro 2021" 
-                class="mask mask-parallelogram-2">
+                alt="Apple MacBook Pro 2021">
         </div>
 
         <div>
