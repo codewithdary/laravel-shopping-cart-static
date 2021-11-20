@@ -34,4 +34,5 @@
             Read more...
         </a>
     </div>
+</div>
 @endsection
